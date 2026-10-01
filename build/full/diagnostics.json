@@ -1,0 +1,86 @@
+{
+  "num_factors": 3,
+  "num_points": 8,
+  "factor_names": [
+    "Pressure",
+    "Speed",
+    "Temp"
+  ],
+  "basic_factors": [
+    "Pressure",
+    "Speed",
+    "Temp"
+  ],
+  "full_factorial": true,
+  "resolution": null,
+  "defining_relations": [],
+  "alias_groups": [
+    {
+      "representative": "I",
+      "members": [
+        {
+          "effect": "I",
+          "sign": 1
+        }
+      ]
+    },
+    {
+      "representative": "Pressure",
+      "members": [
+        {
+          "effect": "Pressure",
+          "sign": 1
+        }
+      ]
+    },
+    {
+      "representative": "Speed",
+      "members": [
+        {
+          "effect": "Speed",
+          "sign": 1
+        }
+      ]
+    },
+    {
+      "representative": "Temp",
+      "members": [
+        {
+          "effect": "Temp",
+          "sign": 1
+        }
+      ]
+    },
+    {
+      "representative": "Pressure*Speed",
+      "members": [
+        {
+          "effect": "Pressure*Speed",
+          "sign": 1
+        }
+      ]
+    },
+    {
+      "representative": "Pressure*Temp",
+      "members": [
+        {
+          "effect": "Pressure*Temp",
+          "sign": 1
+        }
+      ]
+    },
+    {
+      "representative": "Speed*Temp",
+      "members": [
+        {
+          "effect": "Speed*Temp",
+          "sign": 1
+        }
+      ]
+    }
+  ],
+  "confounding": {
+    "main_main": [],
+    "main_interaction": []
+  }
+}

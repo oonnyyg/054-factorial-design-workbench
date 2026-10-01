@@ -1,0 +1,13 @@
+{
+  "factors": [
+    {"name": "A", "low": -1, "high": 1, "kind": "basic"},
+    {"name": "B", "low": -1, "high": 1, "kind": "basic"},
+    {"name": "C", "low": -1, "high": 1, "kind": "basic"},
+    {"name": "D", "low": -1, "high": 1, "kind": "generated",
+     "generator": {"factors": ["A", "B", "C"], "sign": "-"}},
+    {"name": "E", "low": 0, "high": 10, "kind": "generated",
+     "generator": {"factors": ["A", "B"], "sign": "+"}}
+  ],
+  "replicates": 3,
+  "seed": 2026
+}

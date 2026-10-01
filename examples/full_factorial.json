@@ -1,0 +1,9 @@
+{
+  "factors": [
+    {"name": "Temp", "low": 120, "high": 160},
+    {"name": "Pressure", "low": 1.0, "high": 1.5},
+    {"name": "Speed", "low": 50, "high": 80}
+  ],
+  "replicates": 1,
+  "seed": 0
+}

@@ -1,0 +1,119 @@
+{
+  "num_factors": 4,
+  "num_points": 8,
+  "factor_names": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "basic_factors": [
+    "A",
+    "B",
+    "C"
+  ],
+  "full_factorial": false,
+  "resolution": 4,
+  "defining_relations": [
+    {
+      "word": "A*B*C*D",
+      "factors": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sign": -1
+    }
+  ],
+  "alias_groups": [
+    {
+      "representative": "I",
+      "members": [
+        {
+          "effect": "I",
+          "sign": 1
+        }
+      ]
+    },
+    {
+      "representative": "A",
+      "members": [
+        {
+          "effect": "A",
+          "sign": 1
+        }
+      ]
+    },
+    {
+      "representative": "B",
+      "members": [
+        {
+          "effect": "B",
+          "sign": 1
+        }
+      ]
+    },
+    {
+      "representative": "C",
+      "members": [
+        {
+          "effect": "C",
+          "sign": 1
+        }
+      ]
+    },
+    {
+      "representative": "D",
+      "members": [
+        {
+          "effect": "D",
+          "sign": 1
+        }
+      ]
+    },
+    {
+      "representative": "A*B",
+      "members": [
+        {
+          "effect": "A*B",
+          "sign": 1
+        },
+        {
+          "effect": "C*D",
+          "sign": -1
+        }
+      ]
+    },
+    {
+      "representative": "A*C",
+      "members": [
+        {
+          "effect": "A*C",
+          "sign": 1
+        },
+        {
+          "effect": "B*D",
+          "sign": -1
+        }
+      ]
+    },
+    {
+      "representative": "A*D",
+      "members": [
+        {
+          "effect": "A*D",
+          "sign": 1
+        },
+        {
+          "effect": "B*C",
+          "sign": -1
+        }
+      ]
+    }
+  ],
+  "confounding": {
+    "main_main": [],
+    "main_interaction": []
+  }
+}
